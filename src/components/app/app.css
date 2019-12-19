@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+html,
+body {
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: auto;
+  }
+}
+
+.btn {
+  background: transparent;
+  width: auto;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+.btn_main {
+  background-color: #0b7c9e;
+  border: 1px solid #30889f;
+  color: white;
+  border-radius: 3px;
+}
+.btn_main:hover {
+  opacity: 0.9;
+}

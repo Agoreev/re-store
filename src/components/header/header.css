@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__link {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+}
+.nav__link:hover {
+  background: #333;
+  color: white;
+}
+.nav__link_logo {
+  font-size: 1.6rem;
+}
+.nav__link_logo:hover {
+  background: white;
+  color: #333;
+}
