@@ -26,3 +26,9 @@
   background: white;
   color: #333;
 }
+.nav__link_cart {
+  margin-left: auto;
+}
+.cart-icon {
+  margin-right: 10px;
+}

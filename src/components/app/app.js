@@ -7,7 +7,7 @@ import { BooksPage, CartPage } from "../pages";
 const App = () => {
   return (
     <div className="app container">
-      <Header />
+      <Header numItems={5} total={200} />
       <Switch>
         <Route path="/" exact render={() => <h2>Welcome to redux store</h2>} />
         <Route path="/books" component={BooksPage} exact />

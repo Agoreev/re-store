@@ -40,6 +40,37 @@ body {
   color: white;
   border-radius: 3px;
 }
+.btn_small {
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+}
+.btn_success {
+  color: green;
+  border: 1px solid green;
+}
+.btn_success:hover {
+  color: white;
+  background: #0d651c;
+}
+.btn_danger {
+  color: red;
+  border: 1px solid red;
+}
+.btn_danger:hover {
+  color: white;
+  background: red;
+}
+.btn_warning {
+  color: orange;
+  border: 1px solid orange;
+}
+.btn_warning:hover {
+  color: white;
+  background: orange;
+}
 .btn_main:hover {
   opacity: 0.9;
+}
+.margin-r-sm {
+  margin-right: 0.5rem;
 }
