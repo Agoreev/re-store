@@ -2,7 +2,7 @@ import React from "react";
 import "./book-list-item.css";
 import { Link } from "react-router-dom";
 
-const BookListItem = ({ book }) => {
+const BookListItem = ({ book, onAddedToCart }) => {
   const { id, title, author, img, cost } = book;
   return (
     <div className="book" key={id}>
@@ -15,7 +15,9 @@ const BookListItem = ({ book }) => {
         <span className="book__cost">
           <b>{cost}</b>
         </span>
-        <button className="book__bye-btn btn btn_main">Add to cart</button>
+        <button className="book__bye-btn btn btn_main" onClick={onAddedToCart}>
+          Add to cart
+        </button>
       </div>
     </div>
   );
