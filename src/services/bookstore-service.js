@@ -6,7 +6,7 @@ export default class BookstoreService {
       img:
         "https://thepracticaldev.s3.amazonaws.com/i/bgr98fyrb7cau9uhha87.PNG",
       author: "Nir Kaufman",
-      cost: "30"
+      cost: 30
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default class BookstoreService {
       img:
         "https://thepracticaldev.s3.amazonaws.com/i/lee3yr9dzmevpfz8r6p3.jpg",
       author: "Martin Fowler",
-      cost: "25"
+      cost: 25
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ export default class BookstoreService {
       img:
         "https://thepracticaldev.s3.amazonaws.com/i/jeoyr1agokp3k43qtrzx.jpg",
       author: "Robert C. Martin",
-      cost: "34"
+      cost: 34
     }
   ];
   getBooks = () => {
