@@ -2,6 +2,8 @@
 
 Study project for better understanging how to work with React + Redux
 
+![] (restore.gif)
+
 To run project:
 
 **npm install**
