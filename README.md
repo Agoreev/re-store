@@ -4,6 +4,5 @@ Study project for better understanging how to work with React + Redux
 
 To run project:
 
-npm install
-
-npm start
+**npm install**
+**npm start**
