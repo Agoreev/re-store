@@ -2,7 +2,7 @@
 
 Study project for better understanging how to work with React + Redux
 
-![] (restore.gif)
+![](restore.gif | width=300)
 
 To run project:
 
